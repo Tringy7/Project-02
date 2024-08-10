@@ -544,14 +544,14 @@ a {
 }
 
 .review .item {
-  flex: 1; 
+  flex: 1;
   border-radius: 16px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
 }
 
 .review .re-img {
-  border-radius: 16px 16px 0 0 ;
+  border-radius: 16px 16px 0 0;
   width: 100%;
   width: 370px;
   height: 250px;
@@ -568,11 +568,11 @@ a {
 
 .review .desc {
   margin-left: 4px;
-  color: #5F5B53;
+  color: #5f5b53;
   font-size: 1.4rem;
   font-weight: 400;
-  line-height: 1.86; 
-  }
+  line-height: 1.86;
+}
 
 .review .dash {
   margin: 12px 0;
@@ -580,7 +580,7 @@ a {
   height: 1px;
   flex-shrink: 0;
   border-radius: 0.5px;
-  background: #E2DFDA;
+  background: #e2dfda;
 }
 
 .review .sub-desc {
@@ -588,7 +588,7 @@ a {
   font-family: Poppins;
   font-size: 1.6rem;
   font-weight: 600;
-  line-height: 1.75; 
+  line-height: 1.75;
 }
 
 .review .review-btn {
@@ -596,11 +596,11 @@ a {
   padding: 12px 21px;
   text-align: center;
   font-size: 1.4rem;
-  line-height: 1.86; 
+  line-height: 1.86;
 }
 
 .review .review-btn-head {
-  background: #FFB900;
+  background: #ffb900;
 }
 
 .review .review-img-icon {
@@ -610,3 +610,95 @@ a {
 }
 
 /* ==================== Footer ========================= */
+footer {
+  background: #2e2100;
+}
+
+.footer {
+  padding: 96px 0 28px;
+}
+
+.footer .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .block-icon {
+  margin-top: 18px;
+  display: flex;
+  width: 96px;
+  justify-content: space-between;
+}
+
+.footer .block-logo p {
+  margin-top: 18px;
+  width: 267px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+}
+
+.footer .img-icon {
+  align-items: center;
+}
+
+.footer .img-icon:hover {
+  background-color: #aaa6a6;
+}
+
+.footer .title {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+.footer .dash {
+  margin-top: 14px;
+  width: 130px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #59554b;
+}
+
+.footer .list {
+  margin-top: 28px;
+}
+
+.footer .list li {
+  margin-top: 12px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+  width: 231px;
+}
+
+.footer .list span {
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+.footer .list p {
+  display: inline;
+}
+
+.dash-bottom {
+  margin-top: 28px;
+  width: 1170px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #59554b;
+  margin: 38px auto 0;
+}
+
+.footer .desc {
+  margin-top: 28px;
+  color: #807d74;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85px;
+}
