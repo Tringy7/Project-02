@@ -644,7 +644,7 @@ footer {
 }
 
 .footer .img-icon:hover {
-  background-color: #aaa6a6;
+  opacity: 0.6;
 }
 
 .footer .title {
